@@ -16,4 +16,9 @@ public class HelloController {
     public String info(){
         return "Hello World";
     }
+
+    @GetMapping("/info2")
+    public String info2(){
+        return "info2";
+    }
 }
