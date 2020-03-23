@@ -14,7 +14,7 @@ public class HelloController {
 
     @GetMapping("/info")
     public String info(){
-        return "Hello World";
+        return "Hello World经理改的";
     }
 
     @GetMapping("/info2")
